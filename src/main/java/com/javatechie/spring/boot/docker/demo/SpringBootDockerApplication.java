@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SpringBootDockerApplication {
+public class AndroidAppDockerApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
@@ -15,7 +15,7 @@ public class SpringBootDockerApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootDockerApplication.class, args);
+		SpringApplication.run(AndroidAppDockerApplication.class, args);
 	}
 
 }
